@@ -1,3 +1,30 @@
-body { font-family: sans-serif; background-color: #f4f4f4; color: #333; padding: 20px; }
-.comando { background: white; padding: 15px; margin-bottom: 10px; border-left: 5px solid #2ecc71; border-radius: 4px; }
-h1 { color: #2c3e50; }
+body {
+    font-family: sans-serif;
+    background-color: #fff5f8;
+    color: #51445a;
+    padding: 20px;
+}
+
+.comando {
+    background-color: #ffffff;
+    padding: 18px;
+    margin-bottom: 15px;
+    border-left: 6px solid #ff6b9d;
+    border-top: 2px solid #ffd1e1;
+    border-right: 2px solid #d9c2ff;
+    border-bottom: 2px solid #d9c2ff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(180, 130, 170, 0.12);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.comando:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 15px rgba(180, 130, 170, 0.2);
+}
+
+h1 {
+    color: #a64d79;
+    text-align: center;
+    margin-bottom: 25px;
+}
